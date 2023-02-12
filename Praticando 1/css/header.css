@@ -1,0 +1,33 @@
+.header-flex{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: rgb(133, 165, 197);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-decoration-color: black;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 2vw;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 5px;
+}
+
+ul li:hover{
+    background-color: rgb(152, 231, 247);
+}
+
