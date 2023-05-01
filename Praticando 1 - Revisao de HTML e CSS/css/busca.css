@@ -1,0 +1,50 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.image {
+    display: flex;
+
+    background-image: url(../images/busca-bg-image.jpg);
+    justify-content: center;
+
+}
+
+.container-flex {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex-direction: column;
+    padding: 2px;
+    height: 25vw;
+    width: 100vw;
+}
+
+.text {
+    font-size: 4vw;
+    color: orange;
+    font-weight: 400;
+    font-family: fantasy;
+    padding: 2vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+
+.sobre {
+    margin: 1vw;
+}
+
+.contato {
+    margin: 1vw;
+}

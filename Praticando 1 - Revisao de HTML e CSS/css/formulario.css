@@ -1,0 +1,90 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.7vw;
+    font-weight: 1000;
+    margin: 3vw;
+}
+
+.form {
+    display: flex;
+    margin-left: 2vw;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vw;
+    font-size: 1em;
+    background-color: rgb(237, 237, 237);
+}
+
+.inputformulario {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    background-color: rgb(56, 216, 56);
+    margin-top: 0.5vw;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: rgb(255, 213, 0);
+    margin-top: 0.8vw;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.table {
+    border-collapse: collapse;
+    justify-content: end;
+    padding-left: 0.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.th,
+td {
+    border: 0.5px solid rgb(236, 234, 234);
+    padding-left: 0.5vw;
+    height: 40px;
+    width: 200px;
+}
+
+thead {
+    background-color: rgb(0, 255, 102);
+    border: 0.5px solid rgb(236, 234, 234);
+    height: 45px;
+    width: 200px;
+}
+
+.dif {
+    background-color: #eee;
+}

@@ -1,0 +1,36 @@
+body,
+ul {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    list-style-type: none;
+    margin-left: 2vw;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+}
+
+.menu li:hover {
+    background-color: rgb(145, 225, 240);
+}

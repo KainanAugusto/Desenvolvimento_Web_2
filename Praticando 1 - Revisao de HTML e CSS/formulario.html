@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário/Tabela</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="busca.html">Busca</a></li>
+                <li><a href="formulario.html">Formulário/Tabela</a></li>
+                <li><a href="postagem.html">Postagem c/ Imagem</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p class="titulo">Formulário de cadastro e Tabela com dados</p>
+    <div class="container">
+        <div class="form">
+            <form class="formulario">
+                <label for="name">Nome Completo</label>
+                <input class="inputformulario" type="text" name="nome" placeholder="Nome" size="50">
+                <label for="telefone">Telefone</label>
+                <input class="inputformulario" type="number" name="numero" placeholder="(00)00000-0000">
+                <label for="e-mail">E-mail</label>
+                <input class="inputformulario" type="text" name="e-mail" placeholder="seu@email.aqui">
+                <label for="estado-de-residencia">Estado de Residência</label>
+                <select class="inputformulario" name="estado" id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="GR">Gringo</option>
+                </select>
+                <button class="button1" type="submit">Enviar</button>
+                <button class="button2" type="reset" value="limpar">Limpar</button>
+            </form>
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Email</th>
+                    <th>Estado</th>
+                </thead>
+                <tr>
+                    <td>José da Silva </td>
+                    <td>(11) 99785-4871</td>
+                    <td>josesilva11@gmail.com</td>
+                    <td>Santa Catarina</td>
+                </tr>
+                <tr class="dif">
+                    <td>Marcos William Freitas</td>
+                    <td>(11) 99784-4812</td>
+                    <td>mwfreitas@microsoft.com</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Ana Luiza dos Barco</td>
+                    <td>(14) 81475-4812</td>
+                    <td>anareis@microsoft.com</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr class="dif">
+                    <td>Keila Santanna de Souza</td>
+                    <td>(17) 99744-1155</td>
+                    <td>Keila santanna@outlook.com</td>
+                    <td>São Paulo</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

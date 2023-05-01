@@ -1,0 +1,12 @@
+.fotos {
+    width: 25vw;
+    height: 18vw;
+    border: solid 2px black;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
