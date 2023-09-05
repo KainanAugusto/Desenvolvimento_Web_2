@@ -1,0 +1,277 @@
+/* General */
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: #1a1a2e;
+  color: #fff;
+  /* Cor do texto */
+}
+
+header {
+  background-color: #000;
+  border-bottom: 1px solid #444;
+}
+
+.row {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: #f44336;
+  border: 2px solid #d32f2f;
+}
+
+.btn-primary:hover {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.msg {
+  background-color: #4caf50;
+  color: #fff;
+  border: 1px solid #388e3c;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#info-container .already-joined-msg {
+  margin: 15px 0;
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  padding: 10px;
+  width: 275px;
+}
+
+/* navbar */
+#navbar img {
+  width: 70px;
+  height: 30px;
+}
+
+#navbar {
+  justify-content: space-between;
+  background-color: #000;
+  padding: 5px 0;
+}
+
+#navbar a {
+  font-size: 14px;
+  color: #ccc;
+}
+
+#navbar a:hover {
+  color: #f44336;
+}
+
+/* Search Container */
+#search-container {
+  background-image: url("../img/pessoas_asssitindo_firme.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding: 50px;
+  text-align: center;
+}
+
+#search-container h1 {
+  color: #f44336;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+#search-container form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Events list */
+#events-container {
+  padding: 50px;
+}
+
+#events-container h2 {
+  margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#cards-container .card {
+  background-color: #fff;
+  color: #212121;
+  border-radius: 10px;
+  padding: 0;
+  margin: .5%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#cards-container .card:hover {
+  transform: translateY(-5px);
+}
+
+#cards-container .card img {
+  max-height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#cards-container .card .card-date {
+  font-size: 12px;
+  color: #757575;
+}
+
+#cards-container .card .card-title {
+  color: #F2A340;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#cards-container .card-participants {
+  font-size: 14px;
+  color: #757575;
+}
+
+/* Event create page */
+#event-create-container {
+  padding: 30px
+}
+
+#event-create-container label {
+  font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+  font-size: 12px;
+}
+
+/* Event page */
+#image-container,
+#info-container {
+  margin-top: 30px;
+}
+
+#image-container img {
+  border-radius: 10px;
+}
+
+#info-container h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-container p {
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-container ion-icon {
+  font-size: 20px;
+  color: #f44336;
+  margin-right: 5px;
+}
+
+#info-container #event-submit {
+  margin: 20px 0;
+}
+
+#items-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#items-list li {
+  display: flex;
+}
+
+#description-container {
+  margin-top: 30px;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.dashboard-events-container th {
+  width: 25%;
+}
+
+.dashboard-events-container form {
+  display: inline-block;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #F2A340;
+  color: #FFF;
+  padding: 10px;
+}
+
+.table td {
+  background-color: #FFF;
+  color: #212121;
+  padding: 10px;
+}
+
+.table tr:nth-child(even) td {
+  background-color: #F2F2F2;
+}
+
+
+/* Edit page */
+
+.img-preview {
+  width: 100px;
+  margin-top: 20px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
